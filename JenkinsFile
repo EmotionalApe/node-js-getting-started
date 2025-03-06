@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any  
  
     environment {
         NODE_HOME = tool('NodeJS')  // Correct way to define tool
